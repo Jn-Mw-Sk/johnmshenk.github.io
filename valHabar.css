@@ -1,5 +1,5 @@
 /*** GENERAL STYLING ***/
-
+@import "jekyll-theme-minimal";
 header .name {
     /* Make my name my favorite color :) */ 
     color: maroon;
