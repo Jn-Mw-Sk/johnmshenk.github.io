@@ -1,15 +1,16 @@
 /*** GENERAL STYLING ***/
+
 header .name {
     /* Make my name my favorite color :) */ 
     color: maroon;
     background-color:thistle;
-    text-align: center
+    text-align: center;
 }
 
 body{
     background-image: linear-gradient(to bottom, #FFFFFF, maroon);
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-repeat: no-repeat
+    background-repeat: no-repeat;
 }
 
 #wrapper{
@@ -19,33 +20,33 @@ body{
     margin-right: auto;
     margin-left: auto;
     box-shadow: 5px 5px 5px #333333;
-    padding: 30px
+    padding: 30px;
 }
 
 nav{
-    text-align: center
+    text-align: center;
 }
 
 nav a{
     /*Get rid of automatic underlines from links*/
-    text-decoration: none
+    text-decoration: none;
 }
 
 .title {
     text-align: center;
-    text-decoration: solid maroon underline
+    text-decoration: solid maroon underline;
 }
 
 .occupation {
     text-align: center;
     font-weight:lighter;
-    text-decoration: double underline
+    text-decoration: double underline;
 }
 
 .me{
     width:400px;
     height:500px;
-    float: right
+    float: right;
 }
 
 /*** WORK EXPERIENCE PICTURES ***/
@@ -55,7 +56,7 @@ nav a{
     height:250px;
     position: absolute;
     right: 270px;
-    top: 200px
+    top: 200px;
 }
 
 .anchor {
@@ -63,7 +64,7 @@ nav a{
     height:150px;
     position: absolute;
     right: 310px;
-    top: 450px
+    top: 450px;
 }
 
 .cola {
@@ -71,7 +72,7 @@ nav a{
     height:100px;
     position: absolute;
     right: 250px;
-    top: 710px
+    top: 710px;
 }
 
 /*** SKILL TABLE ***/
@@ -79,24 +80,24 @@ nav a{
 .skillTable{
     width:100%;
     border-collapse: collapse;
-    text-align: center
+    text-align: center;
 }
 
 td, th {
     border: 1px solid gray;
-    padding: 8px
+    padding: 8px;
 }
 
 tr:nth-child(even) {
-    background-color: #efc7c7
+    background-color: #efc7c7;
   }
 
 /*** FOOTER ***/
 
 .contact{
-    text-decoration: none
+    text-decoration: none;
 }
 
 .contact:hover {
-    text-decoration: underline
+    text-decoration: underline;
 }
