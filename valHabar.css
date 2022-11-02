@@ -11,6 +11,10 @@ body{
     background-repeat: no-repeat;
 }
 
+h2 {
+    text-align: center;
+}
+
 .me{
     width:400px;
     height:500px;
@@ -30,6 +34,7 @@ body{
     margin-right: auto;
     margin-left: auto;
     box-shadow: 5px 5px 5px #333333;
+    padding: 10px;
     
 }
 
