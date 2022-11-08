@@ -43,6 +43,12 @@ nav a{
     text-decoration: double underline;
 }
 
+.educationTitle {
+    text-align: center;
+    font-weight:lighter;
+    text-decoration: double underline;
+}
+
 .me{
     width:400px;
     height:500px;
@@ -91,6 +97,59 @@ td, th {
 tr:nth-child(even) {
     background-color: #efc7c7;
   }
+
+  
+/*** PROJECT CARDS ***/
+.linkArea {
+    justify-content: center;
+    display:grid;
+    padding-left: 70px;;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+    max-width: 1000px;
+ }
+
+figure {
+    background: #ffffff;
+    display: inline-block;
+    width:260px;
+    margin: 55px 30px 30px;
+    padding: 15px 15px 30px;
+    text-align: center;
+    text-decoration: none;
+    -webkit-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -moz-box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, .3);
+    -webkit-transition: all .20s linear;
+    -moz-transition: all .20s linear;
+    transition: all .20s linear;
+    cursor: pointer;
+    position: relative;
+}
+
+figcaption {
+    color: #333;
+    font-size: 15px;
+    word-wrap:break-word;
+    top: 15px;
+}
+
+figure img {
+    display: block;
+    width: 260px;
+    height: 260px;
+}
+
+figure a{
+    text-decoration: none;
+}
+
+figure:hover {
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    -moz-box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .7);
+}
 
 /*** FOOTER ***/
 
