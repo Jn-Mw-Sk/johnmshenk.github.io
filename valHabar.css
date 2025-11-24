@@ -100,6 +100,14 @@ nav a{
     top: 710px;
 }
 
+.wis {
+        width:250px;
+    height:100px;
+    position: absolute;
+    right: 250px;
+    top: 710px;
+}
+
 /*** SKILL TABLE ***/
 
 .skillTable{
